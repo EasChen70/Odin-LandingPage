@@ -7,12 +7,21 @@
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .top-section{
     background-color: #1f2937;
     margin: 0;
     border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 275px;
+    padding-bottom: 50px;
 }
 
 .header{
@@ -24,6 +33,14 @@ ul {
     background-color: #1f2937;
     margin: 0;
     border: none;
+    display: flex;
+    padding: 0px 275px;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+
+.website-text{
+    max-width: 420px;
 }
 
 .website-text h2{
@@ -37,20 +54,81 @@ ul {
     color: #e5e7eb;
 }
 
-.random .h1{
+.website-text button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 8px 25px;
+}
+
+.website-image{
+    background-color: #7c7b7b;
+    color:#F9FAF8;
+    width: 600px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.random{
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+.random h1{
+    text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color:#1f2937;
+    margin-bottom: 50px;
+}
+
+.random .placeholder-images{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 300px;
+}
+
+.data{
+    text-align: center;
+    max-width: 150px;
+    color: #474747;
+}
+
+.data .img{
+    border: solid 4px #3882F6;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 12px;
+    border-radius: 20px;   
 }
 
 .quote{
     background-color: #e5e7eb;
+    padding: 130px;
+    margin-top: 80px;
 }
 
 .quote .text{
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
-    color:#1f2937
+    color:#1f2937;
+    padding: 0px 100px;
+}
+
+#author{
+    color: #1F2937;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: end;
+    padding-right: 185px;
+    padding-top: 25px;
 }
 
 .cta{
